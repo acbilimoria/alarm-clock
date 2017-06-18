@@ -22,3 +22,15 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+body {
+  height: 100vh;
+  width: 100vh;
+  background: url(bg-image.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#root {
+  color: white;
+  margin-left: 25px;
+}
